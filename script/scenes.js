@@ -402,7 +402,8 @@ class GameLevel extends createjs.Container{
         
         mouseClickArea.on("click", function(){
             if (player != undefined){
-            player.shootBehavior.performAtk(player);}
+                player.shootBehavior.performAtk(player);
+            }
         });
         
         hudContainer.addChild(mouseClickArea, rightBtn, btn1, btn2, btn3, btnH);

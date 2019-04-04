@@ -168,10 +168,6 @@ function optimizeForTouchAndScreens() {
         window.onorientationchange = onOrientationChange;
         if (createjs.Touch.isSupported()) {
             createjs.Touch.enable(stage);
-            joystick	= new VirtualJoystick({
-				container	: document.getElementById("game-canvas"),
-				mouseSupport	: true,
-			});
         }
         onOrientationChange();
         }
@@ -179,6 +175,10 @@ function optimizeForTouchAndScreens() {
         window.onresize = resizeGame;
         resizeGame();
     }
+    joystick	= new VirtualJoystick({
+        container	: document.getElementById("game-canvas"),
+        mouseSupport	: true,
+    });
 }
 function onOrientationChange() {
     setTimeout(resizeGame, 100);

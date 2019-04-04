@@ -1,0 +1,137 @@
+body
+{
+    margin: 0;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    background: #404040 !important;
+}
+#gameWrapper{
+    position: absolute;
+}
+main
+{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header
+{
+    background: #404040;
+    margin-bottom: 10px;
+    text-align: left;
+    height: auto;
+    padding: 20px;
+}
+#title
+{
+    font-family: 'Lobster', Georgia, Times, serif;
+    font-size: 70px;
+    color: white;
+    margin-left: 50px;
+    text-shadow:
+        -3px -3px 0 #000,  
+        3px -3px 0 #000,
+        -2px 3px 0 #000,
+        3px 3px 0 #000;
+}
+#header-img{
+    height: 70px; 
+    width: auto; 
+}
+#gameTitle{
+    height: 150px;
+    margin: auto;
+}
+canvas
+{
+    background: #ccc;
+    -webkit-transform-origin:0px 0px;
+    transform-origin: 0 0;
+    position: absolute;
+}
+#aboutTitle
+{
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 2px rgb(138, 84, 40);
+    font-size: 24pt;
+}
+#aboutText
+{
+    padding-top: 20pt;
+    color:  #fff;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-size: 12pt;
+}
+#quoteText
+{
+    color:  #ffffcc;
+    text-shadow: 1px 1px rgb(53, 34, 13);
+    padding-top: 50px;
+    font-size: 16pt;
+    font-weight: bold; 
+}
+#quoteContainer
+{
+    padding-left: 25%;
+    padding-top: 30px;
+}
+
+.jumbotron
+{
+    background-color: rgb(177, 115, 64) !important;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.controls
+{
+    padding-top: 50px;
+}
+.tutorial
+{
+    padding-top: 40px;
+}
+#tutorialTitle
+{
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 2px rgb(138, 84, 40);
+    font-size: 28pt;
+}
+#tutorialContent
+{
+    padding-top: 30px;
+}
+#controlTitle
+{
+    color: rgb(255, 194, 124);
+    font-size: 20pt;
+}
+#controlText
+{
+    color: #fff;
+    font-size: 12pt;
+}
+.controls h4
+{
+    color: rgb(156, 156, 156);
+}
+footer 
+{
+    color: white;
+    background: #404040;
+    padding: 60px;
+}
+.linking{
+    text-decoration: none;
+    color: #ffffcc;
+    font-size: 16pt;
+    font-weight: bold;
+}
+.linking:hover{
+    color: indianred;
+    text-decoration: none;
+}
+#helpTxt{
+    font-size: 12pt;
+}

@@ -390,7 +390,7 @@ class SceneManager{
 //        document.onclick = this.mouseClickHandler; //left click
 //        document.oncontextmenu = this.rightMouseClickHandler; //right click
     
-        stage.on('pressmove', this.mouseMoveHandler); //mouse move
+        //stage.on('pressmove', this.mouseMoveHandler); //mouse move
 
         //this.handleKeyBoardEvent();
     }

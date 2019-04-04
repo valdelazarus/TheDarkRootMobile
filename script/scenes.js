@@ -400,8 +400,9 @@ class GameLevel extends createjs.Container{
         
         mouseClickArea.hitArea = drawRect("#fff",canvas.width, canvas.height - 100, canvas.width/2,canvas.height/2);
         
-        mouseClickArea.on("click", function(){
+        mouseClickArea.on("click", function(e){
             if (player != undefined){
+                sceneManager.mouseMoveHandler(e);
                 player.shootBehavior.performAtk(player);
             }
         });
